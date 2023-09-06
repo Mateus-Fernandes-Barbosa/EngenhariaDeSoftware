@@ -1,77 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T10:48:20.635Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="b8uETSUUV3V5II7ZIg3g" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T10:54:04.538Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="H-Z5ffIwhV1Xfp0nRMBC" version="21.7.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1839" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2448" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-1" value="Usuário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-1" value="Usuário" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="513" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-2" value="Nome_Usuario" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="120" height="80" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-2" value="Nome_Usuario" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" parent="1" vertex="1">
+          <mxGeometry x="-560" y="393" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-3" value="Senha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="154" y="27" width="120" height="80" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-3" value="Senha" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-416" y="390" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-6" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="102.42640687119479" y="261.71572875253685" as="sourcePoint" />
-            <mxPoint x="140" y="230" as="targetPoint" />
+            <mxPoint x="-467.5735931288052" y="624.7157287525368" as="sourcePoint" />
+            <mxPoint x="-430" y="593" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LTAQ_SRKEP-H9aSpujnp-2" target="LTAQ_SRKEP-H9aSpujnp-1">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LTAQ_SRKEP-H9aSpujnp-2" target="LTAQ_SRKEP-H9aSpujnp-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="190" as="sourcePoint" />
-            <mxPoint x="100" y="140" as="targetPoint" />
+            <mxPoint x="-520" y="553" as="sourcePoint" />
+            <mxPoint x="-470" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LTAQ_SRKEP-H9aSpujnp-1" target="LTAQ_SRKEP-H9aSpujnp-3">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="LTAQ_SRKEP-H9aSpujnp-1" target="LTAQ_SRKEP-H9aSpujnp-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="150" as="sourcePoint" />
-            <mxPoint x="310" y="100" as="targetPoint" />
+            <mxPoint x="-310" y="513" as="sourcePoint" />
+            <mxPoint x="-260" y="463" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="224.9450606016792" y="270.36995959888054" as="sourcePoint" />
-            <mxPoint x="340" y="200" as="targetPoint" />
+            <mxPoint x="-345.0549393983208" y="633.3699595988805" as="sourcePoint" />
+            <mxPoint x="-230" y="563" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LTAQ_SRKEP-H9aSpujnp-24">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LTAQ_SRKEP-H9aSpujnp-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="180" as="sourcePoint" />
-            <mxPoint x="360" y="180" as="targetPoint" />
+            <mxPoint x="-310" y="543" as="sourcePoint" />
+            <mxPoint x="-210" y="543" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-15" value="" style="ellipse;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry y="250" width="120" height="80" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-15" value="" style="ellipse;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="613" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-16" value="Lista_de_Favoritos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="7.5" y="255" width="105" height="70" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-16" value="Lista_de_Favoritos" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-562.5" y="618" width="105" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-17" value="" style="ellipse;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="130" y="260" width="120" height="80" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-17" value="" style="ellipse;whiteSpace=wrap;html=1;fontColor=none;noLabel=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="623" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-18" value="Histórico_de_Buscas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="138" y="265" width="104" height="70" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-18" value="Histórico_de_Buscas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-432" y="628" width="104" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="LTAQ_SRKEP-H9aSpujnp-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="59.99999999999977" y="180.0000000000001" as="sourcePoint" />
-            <mxPoint x="110" y="170" as="targetPoint" />
+            <mxPoint x="-510.0000000000002" y="543.0000000000001" as="sourcePoint" />
+            <mxPoint x="-460" y="533" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-23" value="Administrador" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="150" width="140" height="60" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-23" value="Administrador" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-650" y="513" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LTAQ_SRKEP-H9aSpujnp-1" target="LTAQ_SRKEP-H9aSpujnp-24">
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-25" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LTAQ_SRKEP-H9aSpujnp-1" target="LTAQ_SRKEP-H9aSpujnp-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="180" as="sourcePoint" />
-            <mxPoint x="360" y="180" as="targetPoint" />
+            <mxPoint x="-310" y="543" as="sourcePoint" />
+            <mxPoint x="-210" y="543" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LTAQ_SRKEP-H9aSpujnp-24" value="Parceiro" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="140" height="60" as="geometry" />
+        <mxCell id="LTAQ_SRKEP-H9aSpujnp-24" value="Parceiro" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="513" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
