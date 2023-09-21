@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T19:33:57.166Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="eex8b_UxV452gEmDzsQv" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T19:37:54.812Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.35" etag="R1aIKL6KEv43rcxbID7D" version="21.8.0" type="github">
   <diagram name="Página-1" id="TqNtZ8aGWSihj26Zdwwr">
     <mxGraphModel dx="1598" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NNTyselQC5rzOJFR94tB-1" value="&lt;u&gt;Id_Usuario&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="NNTyselQC5rzOJFR94tB-1" value="ID_Usuario" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="189" y="220" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNTyselQC5rzOJFR94tB-2" value="Usuário" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -16,7 +16,7 @@
         <mxCell id="NNTyselQC5rzOJFR94tB-4" value="Parceiro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="440" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NNTyselQC5rzOJFR94tB-5" value="senha" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="NNTyselQC5rzOJFR94tB-5" value="Senha" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="269" y="220" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNTyselQC5rzOJFR94tB-6" value="Nome_Usuario" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -25,11 +25,11 @@
         <mxCell id="NNTyselQC5rzOJFR94tB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NNTyselQC5rzOJFR94tB-7" target="NNTyselQC5rzOJFR94tB-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NNTyselQC5rzOJFR94tB-7" value="Lista_Favoritos" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="438" y="220" width="90" height="30" as="geometry" />
+        <mxCell id="NNTyselQC5rzOJFR94tB-7" value="Lista_de_Favoritos" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="438" y="220" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNTyselQC5rzOJFR94tB-8" value="Historico" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="528" y="220" width="90" height="30" as="geometry" />
+          <mxGeometry x="549" y="220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NNTyselQC5rzOJFR94tB-9" value="&lt;u&gt;Número_de_série&lt;/u&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="80" y="320" width="110" height="30" as="geometry" />
