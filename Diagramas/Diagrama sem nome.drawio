@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T13:02:12.946Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="22.0.3" etag="kJqXWf7KTYqstXi-arEn" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T13:46:00.422Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Rr5JGJwAQ9kAVsnwvrbR" version="22.0.3" type="github">
   <diagram name="Página-1" id="ZKYmn0D9uTa8L3yYjEei">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RxLqHyeWL9fvtduoax1q-1" value="Coordenador do Curso" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-2" value="&amp;lt;&amp;lt;CRUD&amp;gt;&amp;gt; de alunos matrículados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-3" value="Secretaria Academica" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="245" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-1" target="RxLqHyeWL9fvtduoax1q-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="510" as="sourcePoint" />
+            <mxPoint x="170" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-2" target="RxLqHyeWL9fvtduoax1q-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="510" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-7" value="- Código de Aluno&lt;br&gt;- Nome do Aluno&lt;br&gt;- Endereço&lt;br&gt;- CPF&lt;br&gt;- Telefone&lt;br&gt;- E-mail&lt;br&gt;- Identifdade" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-8" value="&amp;lt;&amp;lt;CRUD&amp;gt;&amp;gt; de disciplinas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-8" target="RxLqHyeWL9fvtduoax1q-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="690" as="sourcePoint" />
+            <mxPoint x="430" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-10" value="- Código da Disciplina&lt;br&gt;- Nome da Disciplina&lt;br&gt;- Carga Horária&lt;br&gt;- Turno&lt;br&gt;- Período&lt;br&gt;- Curso&lt;br&gt;- Preço da Disciplina" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="415" y="620" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-1" target="RxLqHyeWL9fvtduoax1q-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="680" as="sourcePoint" />
+            <mxPoint x="185" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-12" value="&amp;lt;&amp;lt;CRUD&amp;gt;&amp;gt; de cursos ofertados" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RxLqHyeWL9fvtduoax1q-12" source="RxLqHyeWL9fvtduoax1q-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="101" y="325" as="sourcePoint" />
+            <mxPoint x="206" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-12" target="RxLqHyeWL9fvtduoax1q-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="456" y="275" as="sourcePoint" />
+            <mxPoint x="456" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-15" value="- Código do Curso&lt;br&gt;- Nome do Curso&lt;br&gt;- Carga horária total" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="414" y="240" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-16" value="Aluno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="32" y="985" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-17" value="&amp;lt;&amp;lt;CRUD&amp;gt;&amp;gt;&amp;nbsp; plano de curso" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-16" target="RxLqHyeWL9fvtduoax1q-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83" y="1065" as="sourcePoint" />
+            <mxPoint x="188" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-17" target="RxLqHyeWL9fvtduoax1q-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="1015" as="sourcePoint" />
+            <mxPoint x="438" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-20" value="Código de Disciplina" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="398" y="1140" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-27" value="&amp;lt;&amp;lt;CRUD&amp;gt;&amp;gt;&amp;nbsp; matrícula" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188" y="1000" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-16" target="RxLqHyeWL9fvtduoax1q-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-301" y="1087.5" as="sourcePoint" />
+            <mxPoint x="237" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-27" target="RxLqHyeWL9fvtduoax1q-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="1035" as="sourcePoint" />
+            <mxPoint x="434" y="1045" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-30" value="- Plano de Curso&lt;br&gt;- Código de Aluno&lt;br&gt;- Semestre de Referência&lt;br&gt;- Ano de Referência&lt;br&gt;- Número de Disciplinas" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="398" y="960" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-31" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RxLqHyeWL9fvtduoax1q-27" target="RxLqHyeWL9fvtduoax1q-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="267" y="940" as="sourcePoint" />
+            <mxPoint x="263" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-32" value="Validação de matrícula" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RxLqHyeWL9fvtduoax1q-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="RxLqHyeWL9fvtduoax1q-32" source="RxLqHyeWL9fvtduoax1q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="795" as="sourcePoint" />
+            <mxPoint x="196" y="745" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
