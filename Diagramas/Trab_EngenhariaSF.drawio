@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T21:28:13.698Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="EZwKV0oLeGL0iPBOJSSA" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T21:38:23.897Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="yvo4tA_AUc2P_WtX3i2G" version="22.1.4" type="github">
   <diagram name="Página-1" id="_QHT0VM7mfmA924iPTIp">
     <mxGraphModel dx="1416" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="14" value="Funcionario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=23.605931599934895;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="79.5" y="90" width="325.5" height="175.60593159993488" as="geometry" />
+          <mxGeometry x="79.5" y="120" width="325.5" height="127.60593159993489" as="geometry" />
         </mxCell>
         <mxCell id="20" value="- cargo: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
           <mxGeometry y="23.605931599934895" width="325.5" height="24" as="geometry" />
@@ -19,14 +19,8 @@
         <mxCell id="SXoZxHdqQvmYgP3eN_0H-120" value="+ atualizarStatusEmPreparo(pedido: Pedido): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
           <mxGeometry y="79.60593159993489" width="325.5" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="+ cadastrarPizza(pizza: Pizza): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
-          <mxGeometry y="103.60593159993489" width="325.5" height="24" as="geometry" />
-        </mxCell>
-        <mxCell id="25" value="+ cadastrarBebida(bebida: Bebida): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
-          <mxGeometry y="127.60593159993489" width="325.5" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="SXoZxHdqQvmYgP3eN_0H-117" value="+ verificarPedidosPendentes(pedido: Pedido[]) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="14" vertex="1">
-          <mxGeometry y="151.60593159993488" width="325.5" height="24" as="geometry" />
+          <mxGeometry y="103.60593159993489" width="325.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="SXoZxHdqQvmYgP3eN_0H-110" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endSize=12;" parent="1" source="27" target="SXoZxHdqQvmYgP3eN_0H-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -213,12 +207,12 @@
         <mxCell id="SXoZxHdqQvmYgP3eN_0H-91" value="+ efetuarLogin(email: string, senha: string): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="SXoZxHdqQvmYgP3eN_0H-86" vertex="1">
           <mxGeometry y="169.7559326171875" width="336" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="SXoZxHdqQvmYgP3eN_0H-113" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="SXoZxHdqQvmYgP3eN_0H-113" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1" source="14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="244.13" y="90" as="sourcePoint" />
             <mxPoint x="245.88" y="37" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="246" y="90" />
+              <mxPoint x="246" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
