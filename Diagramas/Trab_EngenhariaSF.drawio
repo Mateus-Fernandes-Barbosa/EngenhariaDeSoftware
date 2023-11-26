@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T21:38:23.897Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="yvo4tA_AUc2P_WtX3i2G" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T22:02:09.826Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="GzU2S7ZFJvQx5U504Snz" version="22.1.4" type="github">
   <diagram name="Página-1" id="_QHT0VM7mfmA924iPTIp">
     <mxGraphModel dx="1416" dy="1896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
         <mxCell id="SXoZxHdqQvmYgP3eN_0H-116" value="- pedidos: Pedido[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
           <mxGeometry y="23.8104775168679" width="305" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="DunoJFlVvEclXtKHdvrS-109" value="- comentarios: Comentario[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
+        <mxCell id="DunoJFlVvEclXtKHdvrS-109" value="- carrinho: Item[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2" vertex="1">
           <mxGeometry y="47.8104775168679" width="305" height="24" as="geometry" />
         </mxCell>
         <mxCell id="9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="2" vertex="1">
